@@ -9,9 +9,9 @@ A free, open source Firefox extension that gives veterans a clearer view of thei
 ## Screenshots
 
 <p>
-<img width="322" height="897" alt="va-claim-tracker-my-claim" src="https://github.com/user-attachments/assets/2fe9204a-612f-478a-85b5-bf5767548356" />
-<img width="321" height="406" alt="va-claim-tracker-all-claims" src="https://github.com/user-attachments/assets/69a7cd35-93d3-4aeb-8d74-490b3c3282e2" />
-<img width="319" height="564" alt="va-claim-tracker-disability-rating" src="https://github.com/user-attachments/assets/be4a40b9-f082-4553-8885-bdd40a118792" />
+<img width="161" height="499" alt="va-claim-tracker-my-claim" src="https://github.com/user-attachments/assets/2fe9204a-612f-478a-85b5-bf5767548356" />
+<img width="161" height="499" alt="va-claim-tracker-all-claims" src="https://github.com/user-attachments/assets/69a7cd35-93d3-4aeb-8d74-490b3c3282e2" />
+<img width="161" height="499" alt="va-claim-tracker-disability-rating" src="https://github.com/user-attachments/assets/be4a40b9-f082-4553-8885-bdd40a118792" />
 </p>
 
 ---
