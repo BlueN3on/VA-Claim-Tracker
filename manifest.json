@@ -1,0 +1,52 @@
+{
+  "manifest_version": 2,
+  "name": "VA Claim Tracker",
+  "version": "1.0.1",
+  "description": "See detailed VA disability claim status, phase progress, all claims, and disability ratings \u2014 all local, no data collection.",
+  "author": "Victor Slater",
+  "homepage_url": "https://github.com/BlueN3on/VA-Claim-Tracker",
+  "permissions": [
+    "https://api.va.gov/*",
+    "activeTab",
+    "storage",
+    "notifications",
+    "tabs"
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "96": "icons/icon96.png",
+    "128": "icons/icon128.png"
+  },
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_title": "VA Claim Tracker",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png"
+    }
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "va-claim-tracker@bluen3on",
+      "strict_min_version": "142.0",
+      "data_collection_permissions": {
+        "required": [
+          "none"
+        ]
+      }
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.va.gov/track-claims/your-claims/*/status"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ]
+}
